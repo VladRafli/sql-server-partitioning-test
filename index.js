@@ -8,6 +8,6 @@ app.use(express.urlencoded({
 }))
 app.use(cors())
 
-
+app.get
 
 app.listen(process.env.PORT, () => (console.log(`listening on http://localhost:${process.env.PORT}`)))
